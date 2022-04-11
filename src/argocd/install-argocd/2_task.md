@@ -1,6 +1,6 @@
 ## Install ArgoCD
 
-For quick demos and experimentation, you can deploy ArgoCD by directly using the manifests, which you can find it here: `https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`
+For quick demos and experimentation, you can deploy ArgoCD by directly using the manifests, which you can find it here: `https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`{{copy}}
 
 ---
 

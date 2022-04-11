@@ -5,6 +5,7 @@ answer="Active"
 hint="namespaces argocd not found"
 
 if [[ $condition == $answer ]]; then
+  echo "done"
   exit 0
 else
   echo $hint

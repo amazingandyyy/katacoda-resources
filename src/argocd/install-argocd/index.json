@@ -1,5 +1,4 @@
 {
-    "type": "challenge@0.8",
     "title": "ArgoCD fundamentals",
     "description": "Learn how to install and use ArgoCD on your Kubernetes cluster.",
     "difficulty": "Beginner",
@@ -14,14 +13,12 @@
         {
           "title": "Create namespace",
           "text": "1_task.md",
-          "hint": "1_hint.sh",
           "verify": "1_verify.sh",
           "answer": "1_answer.sh"
         },
         {
           "title": "Install ArgoCD",
           "text": "2_task.md",
-          "hint": "2_hint.sh",
           "verify": "2_verify.sh",
           "answer": "2_answer.sh"
         }
@@ -37,7 +34,8 @@
     },
     "environment": {
       "hideintro": true,
-      "uilayout": "terminal"
+      "uilayout": "terminal",
+      "hideHiddenFiles": true
     },
     "backend": {
       "imageid": "kubernetes-cluster-running:1.18"

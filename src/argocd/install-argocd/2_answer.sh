@@ -1,8 +1,5 @@
-#!/bin/bash
+Using kubectl command to install `https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`{{copy}}.
 
-echo "
 ```sh
-  kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-```{{execute}}
-"
-
+kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```{{copy}}
