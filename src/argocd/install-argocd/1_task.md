@@ -1,0 +1,1 @@
+Create `argocd` namespace

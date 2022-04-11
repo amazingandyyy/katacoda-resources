@@ -1,0 +1,11 @@
+{
+  "title": "ArgoCD",
+  "description": "Learn GitOps with ArgoCD",
+  "courses": [
+    {
+      "course_id": "install-argocd",
+      "title": "Install ArgoCD",
+      "description": "Learn how to install ArgoCD on your Kubernetes cluster."
+    }
+  ]
+}
